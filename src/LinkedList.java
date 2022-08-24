@@ -9,6 +9,9 @@ public class LinkedList {
         return this.head;
     }
 
+    public void setHead(Node n){
+        this.head = n;
+    }
     public boolean search(int data){
         boolean flag = false;
         return  flag;
